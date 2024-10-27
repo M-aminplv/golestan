@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  body {
+    @apply bg-slate-100
+  }
+  .container {
+    @apply w-full lg:max-w-[1600px] bg-white mx-auto my-0
+  }
+  
+  .line {
+    @apply w-36 h-[1px] bg-gray-400
+  }
+}
+
+#Product:nth-child(even )  {
+  background-color: #CDE4B0;
+  
+}
+
+#Product:nth-child(even ) button:hover  {
+  background-color: #f83913;
+  color: white;
+
+  
+}
+
+
+#Product:nth-child(odd )   {
+  background-color: #105153;
+  
+  
+}
+
+#Product:nth-child(odd ) button:hover  {
+  background-color: #68f635;
+  color: white;
+  
+  
+}
+@media screen and (min-width: 640px) {
+  #Product:nth-child(even ) .product-reverse {
+  flex-direction: row-reverse;
+}
+}
+
