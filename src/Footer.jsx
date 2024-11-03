@@ -16,7 +16,7 @@ import { SiAparat } from "react-icons/si";
 
 const Footer = () => {
   return (
-		<div>
+		<footer>
 			<div className="flex items-center justify-center mt-10 gap-6 text-white  ">
 				<FaInstagram
 					size={50}
@@ -97,7 +97,7 @@ const Footer = () => {
 					<p className="mx-auto">Redesign By: Amin Pahlavan</p>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 }
 
